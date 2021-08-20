@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background-color:#ffffff;
+}
+#menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+
+}
+#menu img{
+    width: 180px;
+    margin-left: 30px;
+}
+#menu ul{
+    margin-right: 75px;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline;
+
+}
+#menu ul li a{
+    display: inline-block;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: inherit;
+    padding: 10px 20px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #000;
+    transition:color 0.5s linear;
+}
+#menu ul li a;:hover{
+    color: coral;
+}
+#content{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.text{
+    margin-top: 120px;
+    font-family:Faustina;
+    position: relative;
+    width: 40%;
+
+}
+.image{
+    position: relative;
+    width:450px;
+    padding-right: 5px;
+    padding-top: 10px;
+    height: 300px;
+
+
+}
+.image img{
+    position: absolute;
+    margin: 80px;
+    margin-top: 220px;
+    border-radius: 20%;
+    width: 120%;
+    height: 500px;
+    top: -30px;
+}
+.text h1{
+    color: #5E8B7E;
+    font-size: 60px;
+    line-height: 1.3em;
+
+}
+.text p{
+    color: #333131;
+    font-size: 17px;
+    line-height: 2em;
+}
+.text input{
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    background-color: #eff1f1;
+    cursor: pointer;
+}
+.button{
+    text-decoration: none;
+    width: 200px;
+    border-radius: 800px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: inline-block;
+    margin-top: 30px;
+    border: 3px solid #2C2E43;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(30deg, #c266d3 50%) ;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    cursor: pointer;
+    transition: background 300ms ease-in-out;
+}
+.button:hover{
+    background-position: 100%;
+    color: #47ce12;
+}
+footer  {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #52734D;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:600;
+    font-height: 3px ;
+  }
